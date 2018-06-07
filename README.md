@@ -14,10 +14,12 @@ Module requirements: neo4j-driver package (can obtain easily via pip install neo
 Using this Module:
   1. Select reactome identifier to create metabolomic hetnets from (For example: 'R-HSA-71403' or Tricarboxylic Acid Cycle in Homo sapiens).
   2. Import the module, set neo4j webpage information and create the metabolome:
-  '''
+  
+  ```
   import metabolome_create as mc
   mc.create_metabolome('R-HSA-71403', neo4j_web="bolt://localhost:11001", user="user", password="password")
-  '''
+  ```
+  
   3. Start using the metabolome on Neo4j for Pathway Analysis!
 
   
