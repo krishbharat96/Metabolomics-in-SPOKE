@@ -10,7 +10,8 @@ It also creates four relationship types:
   3. Metabolite <-EXITS- Reactome Event (When a metabolite it the output for a reactome event)
   4. Reactome Event -IS_PART_OF-> Pathway (When a reactome event is involved in a Pathway)
 
-Module requirements: neo4j-driver package (can obtain easily via pip install neo4j-driver or through conda), requests
+Module requirements: neo4j-driver package (can obtain easily via pip install neo4j-driver or through conda), requests package, working version of Neo4j on local device (or access to remote version of Neo4j)
+
 Using this Module:
   1. Install the module to your computer:
   
