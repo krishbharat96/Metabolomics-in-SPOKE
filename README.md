@@ -28,4 +28,7 @@ Using this Module:
   
   4. Start using the network on Neo4j for Pathway Analysis!
 
+Here is a sample hetnet created for the TCA cycle using this module:
+![alt text]https://raw.githubusercontent.com/krishbharat96/Metabolomics-in-SPOKE/master/TCA_Cycle_Reactome.png 
+
   
