@@ -33,6 +33,6 @@ Using this Module:
 
 Here is a sample hetnet created for the TCA cycle using this module:
 
-![alt text](https://raw.githubusercontent.com/krishbharat96/Metabolomics-in-SPOKE/master/TCA_Cycle_Reactome.png) 
+![alt text](https://raw.githubusercontent.com/krishbharat96/Metabolomics-in-SPOKE/master/TCA_Cycle_Reactome_New.png) 
 
   
