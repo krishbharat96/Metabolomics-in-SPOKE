@@ -3,12 +3,14 @@ Utilizes Reactome Database in the automatic creation of Metbolomic hetnets for i
   1. Reactome Pathway Node (e.g. TCA Cycle)
   2. Reactome Event Node (i.e. a metabolic event within a pathway -- e.g. conversion of citrate to isocitrate in TCA cycle)
   3. Reactome Metabolite Node (e.g. ATP)
+  4. Reactome Enzyme Node (e.g. Succinate Dehydrogenase)
 
 It also creates four relationship types:
   1. Pathway1 -IS_CHILD_OF-> Pathway2 (When Pathway2 is at a higher hierarchy within Reactome than Pathway1)
   2. Metabolite -ENTERS-> Reactome Event (When a metabolite is the input for a reactome event)
   3. Metabolite <-EXITS- Reactome Event (When a metabolite it the output for a reactome event)
   4. Reactome Event -IS_PART_OF-> Pathway (When a reactome event is involved in a Pathway)
+  5. Enzyme -IS_INVOLVED_IN-> Reactome Event (When an enzyme is involved in a reactome event)
 
 Module requirements: neo4j-driver package (can obtain easily via pip install neo4j-driver or through conda), requests package, working version of Neo4j on local device (or access to remote version of Neo4j)
 
